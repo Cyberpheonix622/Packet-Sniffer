@@ -28,8 +28,12 @@ Root Privileges	Required to open raw sockets
 🔧 1. Clone the repository
 git clone https://github.com/yourusername/packet-sniffer-python.git
 cd packet-sniffer-python
+
+
 🧪 2. Run the sniffer
       sudo python3 sniffer.py
+
+
 🧹 3. Optional: Filter by protocol
       sudo python3 sniffer.py TCP
       sudo python3 sniffer.py UDP
