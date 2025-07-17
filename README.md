@@ -25,7 +25,9 @@ Filter by protocol (TCP, UDP, ICMP)
 Requirement	Notes:
 
 Python 3.x	Uses standard libraries only
+
 Linux OS	Uses socket.PF_PACKET (Linux-only)
+
 Root Privileges	Required to open raw sockets
 
 🚀 Usage
