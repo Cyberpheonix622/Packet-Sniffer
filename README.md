@@ -22,6 +22,7 @@ Filter by protocol (TCP, UDP, ICMP)
 
 
 🛠️ Prerequisites
+
 Requirement	Notes:
 
 Python 3.x	Uses standard libraries only
@@ -35,6 +36,7 @@ Root Privileges	Required to open raw sockets
 
 🔧 1. Clone the repository
 git clone https://github.com/yourusername/packet-sniffer-python.git
+
 cd packet-sniffer-python
 
 
@@ -44,11 +46,14 @@ cd packet-sniffer-python
 
 🧹 3. Optional: Filter by protocol
       sudo python3 sniffer.py TCP
+
       sudo python3 sniffer.py UDP
+      
       sudo python3 sniffer.py ICMP
 
 
 📂 File Structure
+
 sniffer.py – Main sniffer script containing:
 
 Ethernet frame parsing
